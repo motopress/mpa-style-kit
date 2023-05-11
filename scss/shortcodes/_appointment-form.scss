@@ -1,0 +1,483 @@
+.appointment-form-shortcode {
+
+    .mpa-shortcode-title {
+
+    }
+
+    .mpa-booking-step {
+
+    }
+
+    // previous/next step buttons
+    .mpa-actions {
+
+        .mpa-button-next {
+
+        }
+
+        .mpa-button-back {
+
+        }
+
+        // last step button
+        .mpa-button-reset {
+
+        }
+
+    }
+
+    // step 1
+    .mpa-service-form {
+
+        // controls wrapper
+        .mpa-input-wrapper {
+
+        }
+
+        // all labels
+        label {
+
+        }
+
+        // all selects
+        select {
+
+        }
+
+        // service category select
+        .mpa-service-category {
+
+        }
+
+        // service select
+        .mpa-service {
+
+        }
+
+        // location select
+        .mpa-location {
+
+        }
+
+        // employee select
+        .mpa-employee {
+
+        }
+
+    }
+
+    // step 2
+    .mpa-booking-step-period {
+
+        .mpa-input-container {
+
+            .mpa-input-wrapper {
+
+            }
+
+        }
+
+        // calendar wrapper
+        .mpa-date-wrapper {
+
+        }
+
+        // time-picker wrapper
+        .mpa-time-wrapper {
+
+        }
+
+        // calendar
+        .flatpickr-calendar {
+
+            // month navigation
+            .flatpickr-months {
+
+                // current month
+                .flatpickr-month {
+
+                }
+
+                .flatpickr-next-month {
+
+                }
+
+            }
+
+            // weekdays
+            .flatpickr-weekdays {
+
+                .flatpickr-weekday {
+
+                }
+
+            }
+
+            // dates
+            .flatpickr-days {
+
+                // regular date
+                .flatpickr-day {
+
+                    &:hover {
+
+                    }
+
+                    // selected date
+                    &.selected {
+
+                    }
+
+                }
+
+                // prev/next month dates
+                .nextMonthDay,
+                .prevMonthDay {
+
+                }
+
+                // disabled date
+                .flatpickr-disabled {
+
+                }
+
+            }
+
+        }
+
+        // time-picker
+        .mpa-times {
+
+            &-container {
+
+            }
+
+            // single time-frame button
+            &-period {
+
+                &-end-time {
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // step 3
+    .mpa-booking-step-cart {
+
+        .mpa-cart {
+
+            .no-items {
+
+            }
+
+            &-items {
+
+            }
+
+            // cart item information
+            &-item {
+
+                .item-header {
+
+                }
+
+                .item-body {
+
+                }
+
+                .item-footer {
+
+                }
+
+                .cell {
+
+                    &-title {
+
+                    }
+
+                    &-value {
+
+                    }
+
+                }
+
+                .cell-service {
+
+                }
+
+                .cell-date {
+
+                }
+
+                .cell-location {
+
+                }
+
+                .cell-people {
+
+                }
+
+                .cell-employee {
+
+                }
+
+                .cell-price {
+
+                }
+
+                .cell-actions {
+
+                    .mpa-button-edit-or-remove {
+
+                    }
+
+                }
+
+            }
+
+            &-total {
+
+                &-price {
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // step 4
+    .mpa-booking-step-checkout {
+
+    }
+
+    // step 5
+    .mpa-booking-step-payment {
+
+    }
+
+    // 4-5 step form
+    .mpa-checkout-form {
+
+        // common selector for logical field groups
+        .mpa-checkout-section {
+
+        }
+
+        .mpa-customer-details {
+
+            .mpa-required-tip {
+
+            }
+
+            .mpa-input-wrapper {
+
+            }
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+            textarea {
+
+            }
+
+            .mpa-customer-name {
+
+            }
+
+            .mpa-customer-email {
+
+            }
+
+            .mpa-customer-phone {
+
+            }
+
+            .mpa-customer-notes {
+
+            }
+
+        }
+
+        .mpa-order-details {
+
+            .mpa-order {
+
+                table {
+
+                    th {
+
+                    }
+
+                    td {
+
+                    }
+
+                }
+
+                &-service {
+
+                    .column-service {
+
+                    }
+
+                    .column-price {
+
+                    }
+                }
+
+                &-subtotal {
+
+                    .column-subtotal {
+
+                    }
+
+                    .column-price {
+
+                    }
+
+                }
+
+                &-total {
+
+                    .column-total {
+
+                    }
+
+                    .column-price {
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .mpa-terms-and-conditions-accept {
+
+            .mpa-input-wrapper {
+
+            }
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+            .mpa-terms-and-conditions-link {
+
+            }
+
+        }
+
+        .mpa-billing-details {
+
+            .mpa-payment-gateways-title {
+
+            }
+
+            // list of available payments
+            .mpa-payment-gateways {
+
+                > li {
+
+                }
+
+                label {
+
+                }
+
+                input {
+
+                }
+
+                .mpa-payment-gateway-description {
+
+                }
+
+                .mpa-billing-fields {
+
+                }
+
+            }
+
+        }
+
+        .mpa-deposit-section {
+
+            table {
+
+            }
+
+            .mpa-deposit-title {
+
+            }
+
+            .mpa-deposit-now {
+
+                .column-title {
+
+                }
+
+                .column-price {
+
+                }
+
+            }
+
+            .mpa-deposit-left {
+
+                .column-title {
+
+                }
+
+                .column-price {
+
+                }
+
+            }
+
+            .mpa-input-wrapper {
+
+                label {
+
+                }
+
+                input {
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // step 6
+    .mpa-booking-step-booking  {
+
+        .mpa-message {
+
+        }
+
+    }
+
+    .mpa-error {
+        
+    }
+
+}

@@ -1,0 +1,42 @@
+body.single-mpa_employee {
+
+    .mpa-attributes-title {
+
+    }
+
+}
+
+// single employee attributes
+// use only if you need override common styles from "./scss/employee-attributes.scss"
+.mpa-single-employee-attributes {
+
+    li {
+
+    }
+
+    .mpa-attribute-title {
+
+    }
+
+    .mpa-attribute-value {
+
+        a {
+
+        }
+
+    }
+
+
+    &.mpa-employee-contacts {
+
+    }
+
+    &.mpa-employee-social-networks {
+
+    }
+
+    &.mpa-employee-additional-info {
+
+    }
+
+}

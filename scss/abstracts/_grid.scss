@@ -1,0 +1,29 @@
+.mpa-grid {
+    // to change gap between columns uncomment next line and change '20px'
+    // --mpa-grid-gap: 20px;
+
+    > .mpa-grid-column {
+
+    }
+
+    &.mpa-grid-columns-1 > .mpa-grid-column {
+
+    }
+
+    &.mpa-grid-columns-2 > .mpa-grid-column {
+
+    }
+
+    &.mpa-grid-columns-3 > .mpa-grid-column {
+
+    }
+
+    &.mpa-grid-columns-4 > .mpa-grid-column {
+
+    }
+
+    &.mpa-grid-columns-5 > .mpa-grid-column {
+
+    }
+
+}

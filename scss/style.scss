@@ -1,0 +1,24 @@
+@import 'abstracts/grid';
+
+@import 'pagination';
+@import 'price';
+@import 'employee-attributes';
+@import 'service-attributes';
+@import 'single-employee';
+@import 'single-service';
+
+@import 'shortcodes/appointment-form';
+@import 'shortcodes/booking-cancelation';
+@import 'shortcodes/employees-list';
+@import 'shortcodes/locations-list';
+@import 'shortcodes/service-categories';
+@import 'shortcodes/services-list';
+
+@import 'shortcodes/employee/additional-info';
+@import 'shortcodes/employee/contacts';
+@import 'shortcodes/employee/content';
+@import 'shortcodes/employee/image';
+@import 'shortcodes/employee/schedule';
+@import 'shortcodes/employee/services-list';
+@import 'shortcodes/employee/social-networks';
+@import 'shortcodes/employee/title';
